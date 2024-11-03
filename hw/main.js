@@ -4,7 +4,7 @@
 
 // 2    
 // let userBirthYear = +prompt("Enter your birth year: ");
-// let currentYear = 2024;
+// const currentYear = 2024;
 // let userAge = currentYear - userBirthYear;
 // alert("You are " + userAge + " years old.");
 
@@ -19,7 +19,20 @@
 // alert("Area of the circle is: " + circleArea + " cm^2.");
 
 // 5
-let distance = +prompt("Enter the distance between two cities (in km): ");
-let time = +prompt("Enter your desired time to reach your destination (in hours): ");
-let speed = distance / time; 
-alert("You should travel at " + Math.round(speed) + " km/h to reach your destination on time."); // Math.round() 56.5555555....
+// let distance = +prompt("Enter the distance between two cities (in km): ");
+// let time = +prompt("Enter your desired time to reach your destination (in hours): ");
+// let speed = distance / time; 
+// alert("You should travel at " + Math.round(speed) + " km/h to reach your destination on time."); // Math.round() 56.5555555....
+
+// 6
+// const exchangeRate = 0.92;
+// let dollars = +prompt("Enter the amount of $: ");
+// let result = dollars * exchangeRate; 
+// alert(dollars + " $" + " = " + result.toFixed(2) + " €"); // 115.25...
+
+// 7 
+const fSize = 820;
+let usb = +prompt("Enter your USB flash drive space: ");
+let usbMB = usb * 1024; 
+let result = usbMB / fSize; 
+alert("You will be able to fit: " + Math.floor(result) + " files on your usb flash drive");
